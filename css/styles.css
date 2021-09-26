@@ -1,0 +1,12 @@
+body {
+  background-color: #e5e5e5;
+}
+.page-navigation:hover:focus {
+  color: #2196f3;
+}
+.contacts :hover :focus {
+  color: #2196f3;
+}
+address:hover:focus {
+  color: #2196f3;
+}
