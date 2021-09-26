@@ -1,24 +1,31 @@
 body {
   background-color: #e5e5e5;
+  font-family: Roboto, sans-serif;
+  color: #212121;
 }
+.categories {
+  color: #757575;
+}
+
 .page-navigation {
-    Font family: Roboto;
-Font style: Medium;
-Font size: 16px;
-Line height: 26px;
-Line height: 139%;
-Vertical align: Top;
-Letter spacing: 3%;
+  font-family: Roboto, sans-serif;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 26px;
+  line-height: 139%;
+  spacing: 3%;
 }
 
 .page-navigation:hover,
 .page-navigation:focus {
   color: #2196f3;
 }
+
 .contacts:hover,
 .contacts:focus {
   color: #2196f3;
 }
+
 address:hover,
 address:focus {
   color: #2196f3;
