@@ -1,8 +1,18 @@
 body {
   background-color: #e5e5e5;
   font-family: Roboto, sans-serif;
-  color: #212121;
 }
+
+ul,
+h2 {
+  color: #212121;
+  list-style-type: none;
+}
+
+.contacts {
+  color: #757575;
+}
+
 .categories {
   color: #757575;
 }
