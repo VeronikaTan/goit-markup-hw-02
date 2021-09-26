@@ -31,6 +31,7 @@ button:active {
   font-size: 1.14;
   line-height: 1;
   letter-spacing: 2%;
+  text-decoration: none;
 }
 
 .contacts:hover,
@@ -45,6 +46,7 @@ button:active {
   line-height: 26px;
   line-height: 139%;
   spacing: 3%;
+  text-decoration: none;
 }
 
 /*........MAIN.....*/
