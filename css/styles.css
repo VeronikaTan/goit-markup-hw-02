@@ -31,6 +31,9 @@ button:active {
   font-size: 1.14;
   line-height: 1;
   letter-spacing: 2%;
+}
+
+.contacts a {
   text-decoration: none;
 }
 
@@ -46,6 +49,9 @@ button:active {
   line-height: 26px;
   line-height: 139%;
   spacing: 3%;
+}
+
+.page-navigation a {
   text-decoration: none;
 }
 
