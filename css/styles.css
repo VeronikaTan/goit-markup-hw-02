@@ -107,17 +107,17 @@ footer {
   letter-spacing: 3%;
 }
 
-.location {
+p {
   color: #ffffff;
 }
 
-div {
+address > a {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.place:hover,
-.place:focus,
-.location:focus,
-.location:hover {
+address > p:hover,
+address > p:focus,
+a:focus,
+a:hover {
   color: #2196f3;
 }
