@@ -107,7 +107,7 @@ footer {
   letter-spacing: 3%;
 }
 
-p {
+address > p {
   color: #ffffff;
 }
 
@@ -117,7 +117,7 @@ address > a {
 
 address > p:hover,
 address > p:focus,
-a:focus,
-a:hover {
+.contacts-footer:focus,
+.contacts-footer:hover {
   color: #2196f3;
 }
