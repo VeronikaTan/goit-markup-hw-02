@@ -40,7 +40,7 @@ button:active {
   text-decoration: none;
 }
 
-.contacts {
+.contacts a {
   color: #757575;
   font-size: 1.14;
   line-height: 1;
