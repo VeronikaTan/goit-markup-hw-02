@@ -3,10 +3,14 @@
   --secondary-text-color: #757575;
   --thirdparty-text-color: #ffffff;
   --accent-color: #2196f3;
+  --primary-background-color: #e5e5e5;
+  --button-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+  --contacts-footer-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: var(--primary-background-color);
   font-family: Roboto, sans-serif;
 }
 
@@ -38,13 +42,16 @@ body {
   display: inline;
 }
 
+/*.............BUTTON.................................*/
+
 .button {
-  background-color: #f5f4fa;
+  background-color: var(--button-background-color);
+  border-color: transparent;
 }
 
-button:hover,
-button:focus,
-button:active {
+.button:hover,
+.button:focus,
+.button:active {
   color: var(--accent-color);
 }
 
@@ -122,7 +129,7 @@ ul a:focus {
 /*........FOOTER...................................*/
 
 footer {
-  background-color: #2f303a;
+  background-color: var(--footer-background-color);
   font-style: regular;
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -155,7 +162,7 @@ address > p:focus,
 }
 
 .contacts-footer {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contacts-footer-color);
   text-decoration: none;
 }
 
