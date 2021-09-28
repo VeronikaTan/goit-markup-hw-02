@@ -30,24 +30,25 @@ body {
 }
 
 /*..........HEADER.....................................*/
-.filter li {
+.button {
   font-family: Roboto, sans-serif;
   font-style: Medium;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
   font-weight: 500;
-  text-align: center;
   list-style-type: none;
-  display: inline;
-}
-
-/*.............BUTTON.................................*/
-
-.button {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-decoration: none;
   background-color: var(--button-background-color);
+  cursor: pointer;
   border-color: transparent;
+  cursor: pointer;
 }
+/*.............BUTTON.................................*/
 
 .button:hover,
 .button:focus,
@@ -150,8 +151,8 @@ address {
   font-style: normal;
 }
 
-address > p:hover,
-address > p:focus,
+place:hover,
+place:focus,
 .contacts-footer:focus,
 .contacts-footer:hover {
   color: var(--accent-color);
