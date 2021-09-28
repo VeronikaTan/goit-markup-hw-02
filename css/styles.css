@@ -27,7 +27,6 @@ body {
 /*..........HEADER.....................................*/
 
 .filter {
-  font-family: "Roboto", sans-serif;
   font-style: Medium;
   font-size: 16px;
   line-height: 1.6;
@@ -41,9 +40,34 @@ body {
   text-decoration: none;
   list-style-type: none;
 }
+
+.hero-title {
+  font-weight: 900;
+  color: var(--thirdparty-text-color);
+  align-self: center;
+  line-height: 1.16;
+  font-size: 44px;
+  letter-spacing: 0.06em;
+  font-style: black;
+}
+.hero {
+  background-color: var(--footer-background-color);
+}
 /*.............BUTTON.................................*/
-.button {
-  display: center;
+
+.button-hero {
+  background-color: var(--accent-color);
+  color: var(--thirdparty-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.06em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-menu {
+  display: inline-block;
   text-decoration: none;
   background-color: var(--button-background-color);
   cursor: pointer;
@@ -61,7 +85,6 @@ body {
 /*............PAGE-NAVIGATION...........*/
 
 .page-navigation {
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0.03em;
@@ -97,6 +120,28 @@ body {
 
 /*........MAIN..................................*/
 
+.list-title {
+  font-size: 14px;
+  font-style: bold;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.list-info {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.job-info {
+  font-style: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
 .description {
   color: var(--primary-text-color);
   list-style-type: none;
@@ -106,6 +151,21 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   list-style-type: none;
+}
+
+.person {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  font-style: medium;
+}
+
+.position {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 img {
@@ -147,6 +207,7 @@ footer {
   color: var(--thirdparty-text-color);
   font-size: 26px;
   text-decoration: none;
+  font-weight: 700;
 }
 
 address {
