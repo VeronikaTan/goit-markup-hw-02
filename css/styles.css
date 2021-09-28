@@ -1,3 +1,10 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --thirdparty-text-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
 body {
   background-color: #e5e5e5;
   font-family: Roboto, sans-serif;
@@ -8,17 +15,17 @@ body {
   padding-left: 0;
   margin: 0;
 }
-/*.....LOGO....*/
+/*.....LOGO.............................*/
 .logo-head {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
-  color: #212121;
+  color: var(--primary-text-color);
   list-style-type: none;
   text-decoration: none;
 }
 
-/*..........HEADER......*/
+/*..........HEADER.....................................*/
 .filter li {
   font-family: Roboto, sans-serif;
   font-style: Medium;
@@ -34,29 +41,35 @@ body {
 button:hover,
 button:focus,
 button:active {
-  color: #2196f3;
+  color: var(--accent-color);
 }
+
+/*............PAGE-NAVIGATION...........*/
 
 .page-navigation {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color);
   text-decoration: none;
+  font-style: Medium;
 }
 
 .page-navigation li {
   text-decoration: none;
 }
 
+/*.................CONTACTS-HEAD...........*/
+
 .contacts-head {
-  color: #757575;
+  color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0.02em;
   list-style-type: none;
   text-decoration: none;
+  font-style: medium;
 }
 
 .contacts a {
@@ -65,13 +78,13 @@ button:active {
 
 .contacts:hover,
 .contacts:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-/*........MAIN.....*/
+/*........MAIN..................................*/
 
 .description {
-  color: #212121;
+  color: var(--primary-text-color);
   list-style-type: none;
   font-weight: 700;
   font-size: 18px;
@@ -89,7 +102,7 @@ img {
 }
 
 .categories {
-  color: #757575;
+  color: var(--secondary-text-color);
   font-family: Roboto, sans-serif;
   font-style: Regular;
   font-size: 16px;
@@ -99,18 +112,10 @@ img {
 
 ul a:hover,
 ul a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-/*........FOOTER.........*/
-
-.logo-footer {
-  font-family: Raleway, sans-serif;
-  font-size: 1.2;
-  color: #ffffff;
-  font-size: 26px;
-  text-decoration: none;
-}
+/*........FOOTER...................................*/
 
 footer {
   background-color: #2f303a;
@@ -122,12 +127,27 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.place {
-  color: #ffffff;
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  font-size: 1.2;
+  color: var(--thirdparty-text-color);
+  font-size: 26px;
+  text-decoration: none;
 }
 
 address {
   font-style: normal;
+}
+
+address > p:hover,
+address > p:focus,
+.contacts-footer:focus,
+.contacts-footer:hover {
+  color: var(--accent-color);
+}
+
+.place {
+  color: var(--thirdparty-text-color);
 }
 
 .contacts-footer {
@@ -135,13 +155,6 @@ address {
   text-decoration: none;
 }
 
-address > p:hover,
-address > p:focus,
-.contacts-footer:focus,
-.contacts-footer:hover {
-  color: #2196f3;
-}
-
 span {
-  color: #2196f3;
+  color: var(--accent-color);
 }
