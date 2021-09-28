@@ -2,24 +2,33 @@ body {
   background-color: #e5e5e5;
   font-family: Roboto, sans-serif;
 }
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
 /*.....LOGO....*/
 .logo-head {
   font-family: Raleway, sans-serif;
-  font-size: 1.2;
+  font-size: 26px;
+  line-height: 1.2;
   color: #212121;
+  list-style-type: none;
   text-decoration: none;
 }
 
 /*..........HEADER......*/
-.filter {
+.filter li {
   font-family: Roboto, sans-serif;
   font-style: Medium;
-  font-size: 1.6;
-  line-height: 1;
+  font-size: 16px;
+  line-height: 1.6;
   letter-spacing: 0.03em;
   font-weight: 500;
   text-align: center;
-  text-decoration: none;
+  list-style-type: none;
+  display: inline;
 }
 
 button:hover,
@@ -30,22 +39,24 @@ button:active {
 
 .page-navigation {
   font-family: Roboto, sans-serif;
-  font-size: 1.6;
+  font-size: 14px;
   line-height: 1;
   letter-spacing: 0.03em;
   color: #212121;
   text-decoration: none;
 }
 
-.page-navigation {
+.page-navigation li {
   text-decoration: none;
 }
 
-.contacts a {
+.contacts-head {
   color: #757575;
-  font-size: 1.14;
+  font-size: 14px;
   line-height: 1;
   letter-spacing: 0.02em;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .contacts a {
@@ -63,10 +74,11 @@ button:active {
   color: #212121;
   list-style-type: none;
   font-weight: 700;
-  font-size: 2;
+  font-size: 18px;
   font-style: bold;
-  line-height: 1.71;
+  line-height: 2;
   letter-spacing: 0.06em;
+  list-style-type: none;
 }
 
 img {
@@ -80,8 +92,8 @@ img {
   color: #757575;
   font-family: Roboto, sans-serif;
   font-style: Regular;
-  font-size: 1.5;
-  line-height: 1;
+  font-size: 16px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
 }
 
@@ -96,6 +108,8 @@ ul a:focus {
   font-family: Raleway, sans-serif;
   font-size: 1.2;
   color: #ffffff;
+  font-size: 26px;
+  text-decoration: none;
 }
 
 footer {
@@ -108,17 +122,26 @@ footer {
   letter-spacing: 0.03em;
 }
 
-address > p {
+.place {
   color: #ffffff;
 }
 
-address > a {
+address {
+  font-style: normal;
+}
+
+.contacts-footer {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 address > p:hover,
 address > p:focus,
 .contacts-footer:focus,
 .contacts-footer:hover {
+  color: #2196f3;
+}
+
+span {
   color: #2196f3;
 }
