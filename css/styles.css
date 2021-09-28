@@ -11,12 +11,12 @@
 
 body {
   background-color: var(--primary-background-color);
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /*.....LOGO.............................*/
 .logo-head {
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.2;
   color: var(--primary-text-color);
@@ -25,18 +25,9 @@ body {
 }
 
 /*..........HEADER.....................................*/
-.button {
-  display: center;
-  text-decoration: none;
-  background-color: var(--button-background-color);
-  cursor: pointer;
-  border-color: transparent;
-  cursor: pointer;
-  list-style: none;
-}
 
 .filter {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: Medium;
   font-size: 16px;
   line-height: 1.6;
@@ -51,6 +42,15 @@ body {
   list-style-type: none;
 }
 /*.............BUTTON.................................*/
+.button {
+  display: center;
+  text-decoration: none;
+  background-color: var(--button-background-color);
+  cursor: pointer;
+  border-color: transparent;
+  cursor: pointer;
+  list-style: none;
+}
 
 .button:hover,
 .button:focus,
@@ -61,7 +61,7 @@ body {
 /*............PAGE-NAVIGATION...........*/
 
 .page-navigation {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0.03em;
@@ -117,8 +117,8 @@ img {
 
 .categories {
   color: var(--secondary-text-color);
-  font-family: Roboto, sans-serif;
-  font-style: Regular;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
@@ -133,8 +133,8 @@ ul a:focus {
 
 footer {
   background-color: var(--footer-background-color);
-  font-style: regular;
-  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1.7;
   line-height: 1.46;
@@ -142,7 +142,7 @@ footer {
 }
 
 .logo-footer {
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.2;
   color: var(--thirdparty-text-color);
   font-size: 26px;
