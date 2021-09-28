@@ -38,6 +38,10 @@ body {
   display: inline;
 }
 
+.button {
+  background-color: #f5f4fa;
+}
+
 button:hover,
 button:focus,
 button:active {
