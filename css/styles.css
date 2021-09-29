@@ -25,22 +25,22 @@ body {
 }
 
 /*..........HEADER.....................................*/
-
+/*portfolio*/
 .filter {
   font-style: Medium;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   font-weight: 500;
   list-style-type: none;
   text-decoration: none;
 }
-
+/*both*/
 .list {
   text-decoration: none;
   list-style-type: none;
 }
-
+/*styles*/
 .hero-title {
   font-weight: 900;
   color: var(--thirdparty-text-color);
@@ -49,12 +49,14 @@ body {
   font-size: 44px;
   letter-spacing: 0.06em;
   font-style: black;
+  text-transform: uppercase;
 }
+/*styles*/
 .hero {
   background-color: var(--footer-background-color);
 }
 /*.............BUTTON.................................*/
-
+/*style*/
 .button-hero {
   background-color: var(--accent-color);
   color: var(--thirdparty-text-color);
@@ -65,32 +67,46 @@ body {
   text-align: center;
   cursor: pointer;
 }
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--accent-color);
+  color: var(--button-background-color);
+}
 
+/*style*/
 .button-menu {
   display: inline-block;
   text-decoration: none;
   background-color: var(--button-background-color);
-  cursor: pointer;
   border-color: transparent;
   cursor: pointer;
   list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 
-.button:hover,
-.button:focus,
-.button:active {
-  color: var(--accent-color);
+.button-menu:hover,
+.button-menu:focus,
+.button-menu:active {
+  background-color: var(--accent-color);
+  border-color: transparent;
+  color: var(--button-background-color);
 }
 
 /*............PAGE-NAVIGATION...........*/
 
 .page-navigation {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   text-decoration: none;
-  font-style: Medium;
+  font-weight: 500;
+}
+.current-page {
+  color: var(--accent-color);
 }
 
 .page-navigation li {
@@ -106,7 +122,7 @@ body {
   letter-spacing: 0.02em;
   list-style-type: none;
   text-decoration: none;
-  font-style: medium;
+  font-weight: 500;
 }
 
 .contacts a {
@@ -126,6 +142,7 @@ body {
   line-height: 1.1;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  text-transform: uppercase;
 }
 
 .list-info {
@@ -136,12 +153,12 @@ body {
 }
 
 .job-info {
-  font-style: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
-
+/*portfolio*/
 .description {
   color: var(--primary-text-color);
   list-style-type: none;
@@ -152,33 +169,26 @@ body {
   letter-spacing: 0.06em;
   list-style-type: none;
 }
-
+/*styles*/
 .person {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   font-style: medium;
+  font-weight: 500;
 }
-
+/*styles*/
 .position {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-
-img {
-  height: 294px;
-  width: 370px;
-  left: 215px;
-  top: 262px;
-}
-
+/*portfolio*/
 .categories {
   color: var(--secondary-text-color);
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
@@ -195,9 +205,8 @@ footer {
   background-color: var(--footer-background-color);
   font-style: normal;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 1.7;
-  line-height: 1.46;
+  font-size: 14px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
